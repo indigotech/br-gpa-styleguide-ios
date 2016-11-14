@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TQTTitleView">
+            <connections>
+                <outlet property="_titleLabel" destination="n0U-Nx-ELv" id="xwS-R2-uyi"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n0U-Nx-ELv">
+                    <rect key="frame" x="15" y="15" width="345" height="33"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="iHM-I9-flf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="stylesheet" value="H2_Label"/>
+                    </userDefinedRuntimeAttributes>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="iHM-I9-flf"/>
+                        </mask>
+                    </variation>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="n0U-Nx-ELv" secondAttribute="trailing" constant="15" id="3hx-hU-6o2"/>
+                <constraint firstItem="n0U-Nx-ELv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="5FR-f9-3g2"/>
+                <constraint firstAttribute="bottom" secondItem="n0U-Nx-ELv" secondAttribute="bottom" id="jN1-za-1lV"/>
+                <constraint firstItem="n0U-Nx-ELv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="x3k-ey-xTE"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="359.5" y="86"/>
+        </view>
+    </objects>
+</document>

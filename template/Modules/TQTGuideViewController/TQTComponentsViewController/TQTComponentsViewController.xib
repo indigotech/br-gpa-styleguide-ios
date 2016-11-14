@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TQTComponentsViewController">
+            <connections>
+                <outlet property="_contentView" destination="4O8-fn-hpT" id="dAI-tK-sd4"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L7j-0H-0DR">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4O8-fn-hpT">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="4O8-fn-hpT" firstAttribute="leading" secondItem="L7j-0H-0DR" secondAttribute="leading" id="0pg-WU-jzK"/>
+                        <constraint firstItem="4O8-fn-hpT" firstAttribute="top" secondItem="L7j-0H-0DR" secondAttribute="top" id="1uQ-Ts-pIk"/>
+                        <constraint firstItem="4O8-fn-hpT" firstAttribute="height" secondItem="L7j-0H-0DR" secondAttribute="height" placeholder="YES" id="23L-fV-UIo"/>
+                        <constraint firstAttribute="trailing" secondItem="4O8-fn-hpT" secondAttribute="trailing" id="FIs-FV-oTw"/>
+                        <constraint firstAttribute="bottom" secondItem="4O8-fn-hpT" secondAttribute="bottom" id="bqk-m3-shj"/>
+                        <constraint firstItem="4O8-fn-hpT" firstAttribute="width" secondItem="L7j-0H-0DR" secondAttribute="width" id="iPe-XZ-ZfB"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="L7j-0H-0DR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="1dJ-gd-Wcy"/>
+                <constraint firstItem="L7j-0H-0DR" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Nyh-o2-5B1"/>
+                <constraint firstAttribute="bottom" secondItem="L7j-0H-0DR" secondAttribute="bottom" id="mRZ-gA-SDk"/>
+                <constraint firstAttribute="trailing" secondItem="L7j-0H-0DR" secondAttribute="trailing" id="y07-Bc-fDK"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+        </view>
+    </objects>
+</document>
